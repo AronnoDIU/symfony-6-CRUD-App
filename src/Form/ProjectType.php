@@ -14,8 +14,10 @@ class ProjectType extends AbstractType
         $builder
             ->add('name')
             ->add('description')
-            ->add('created_at')
-            ->add('updated_at')
+
+// Delete these lines. Because already added by Timestampable value
+//            ->add('created_at')
+//            ->add('updated_at')
         ;
     }
 
